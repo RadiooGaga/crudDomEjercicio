@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.galeria {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+}
+
+.galeria > div {
+    width: 100%;
+}
+
+.galeria > div > img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.opaca {
+    filter: invert(40%);
+}

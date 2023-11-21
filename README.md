@@ -1,7 +1,7 @@
        CREAR UN ARRAY DE IMAGENES DESDE JS
 
 La estructura de html que quiero mediante js será la siguiente:
-<section>
+<!--<section>
     <div>
         <img src = "" alt = "imagen inyectada">
     </div>
@@ -14,7 +14,7 @@ La estructura de html que quiero mediante js será la siguiente:
    .
    .
 </section>
-
+-->
 MINIMO 10 IMAGENES
 
 Las imágenes se van a ir añadiendo del revés. Es decir, la primera imagen que 
